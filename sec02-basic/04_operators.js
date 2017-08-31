@@ -51,7 +51,7 @@ console.log(d, typeof d);       // return 3, Number
 
 /** ==========================================================================
  * OPERATORS PRECEDENCE
- * 
+ * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
  * ===========================================================================
  */
 // Try it yourself
