@@ -1,10 +1,37 @@
-function marry (man, women) {
-    women.husband = man;
-    man.wife = women;
+/**
+ * ================================
+ * The simple example
+ * ================================
+ */
+let user = {
+    name: 'John',
+};
+
+console.log(user);
+
+user = null;
+
+console.log(user);
+
+if (user != 'undefined') {
+    console.log('exist');
+}
+
+// ----------------------------------------------------------------
+
+/**
+ * ================================
+ * Interlinked objects
+ * ================================
+ */
+
+function marry (man, woman) {
+    woman.husband = man;
+    man.wife = woman;
 
     return {
         father: man,
-        mother: women,
+        mother: woman,
     }
 }
 
