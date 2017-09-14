@@ -18,4 +18,7 @@ let family = marry(
 );
 
 console.log(family);
-console.log(family.father.wife.husband.wife.husband.name); // Circular
+// return { father: { name: 'John', wife: { name: 'Ann', husband: [Circular] } },
+//          mother: { name: 'Ann', husband: { name: 'John', wife: [Circular] } } }
+
+console.log(family.father.wife.husband.wife.husband.name);
